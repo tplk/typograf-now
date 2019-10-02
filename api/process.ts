@@ -4,7 +4,7 @@ import { NowRequest, NowResponse } from '@now/node';
 
 type TypografRestConfig = {
   text: string,
-  options: TypografOptions,
+  options?: TypografOptions,
 }
 
 type TypografNowRequest = NowRequest & { body: TypografRestConfig };
