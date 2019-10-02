@@ -1,0 +1,18 @@
+{
+  "name": "typograf-now",
+  "version": "0.0.1",
+  "description": "typograf now.sh web api.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tplk/typograf-now.git"
+  },
+  "author": "Dmitry Teplov <tplk@itplk.ru> (https://github.com/tplk)",
+  "license": "MIT",
+  "devDependencies": {
+    "@now/node": "1.0.1",
+    "typescript": "3.6.3"
+  },
+  "dependencies": {
+    "typograf": "6.8.2"
+  }
+}
