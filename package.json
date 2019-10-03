@@ -13,6 +13,6 @@
     "typescript": "3.6.3"
   },
   "dependencies": {
-    "typograf": "6.8.2"
+    "typograf": "6.8.3"
   }
 }
