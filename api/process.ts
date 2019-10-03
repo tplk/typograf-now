@@ -22,7 +22,7 @@ function processText(
   options: TypografOptions = defaultOptions,
 ): string {
   const mergedOptions = {...options, ...defaultOptions};
-  const typograf = new Typograf(mergedOptions as any);
+  const typograf = new Typograf(mergedOptions);
   return typograf.execute(text);
 }
 
