@@ -1,14 +1,14 @@
 # typograf-now
-[typograf](https://github.com/typograf/typograf) service provided as a serverless function at https://typograf-now.typograf.now.sh/api/process.
+[typograf](https://github.com/typograf/typograf) service provided as a serverless function at https://typograf.now.sh/api/process.
 
 ## Basic usage
-To process text make a POST request to https://typograf-now.typograf.now.sh/api/process with `text` body parameter.
+To process text make a POST request to https://typograf.now.sh/api/process with `text` body parameter.
 
 running the following command in the terminal:
 ```bash
 curl -s \
   -d 'text=my "text"' \
-  https://typograf-now.typograf.now.sh/api/process
+  https://typograf.now.sh/api/process
 ```
 
 results in:
@@ -40,7 +40,7 @@ curl -s \
   -X POST \
   -H "Content-Type: application/json" \
   -d '{"text": "1/2", "options":{"disableRule": ["common/number/fraction"]}}' \
-  https://typograf-now.typograf.now.sh/api/process
+  https://typograf.now.sh/api/process
 ```
 
 results in:
