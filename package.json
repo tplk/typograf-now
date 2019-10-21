@@ -9,7 +9,7 @@
   "author": "Dmitry Teplov <tplk@itplk.ru> (https://github.com/tplk)",
   "license": "MIT",
   "devDependencies": {
-    "@now/node": "1.0.1",
+    "@now/node": "1.0.2",
     "typescript": "3.6.4"
   },
   "dependencies": {
